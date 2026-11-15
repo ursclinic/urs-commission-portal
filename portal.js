@@ -4,7 +4,8 @@ const status = document.getElementById('loginStatus');
 const enter = document.getElementById('enterAdmin');
 const destinations = {
   '正職諮詢師｜超額累進制': 'https://ursclinic.github.io/urs-fulltime-commission-admin/',
-  '臨時諮詢師｜月等效制': 'https://ursclinic.github.io/monthly-commission-calculator-admin/'
+  '臨時諮詢師｜月等效制': 'https://ursclinic.github.io/monthly-commission-calculator-admin/',
+  '兼職諮詢師｜日抽成制': 'https://ursclinic.github.io/part-time-calculator-admin/'
 };
 let selected = '';
 let attempt = 0;
